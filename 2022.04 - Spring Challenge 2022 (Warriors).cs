@@ -46,7 +46,7 @@ public class Game
 		int baseX = int.Parse(inputs[0]); // The corner of the map representing your base
 		int baseY = int.Parse(inputs[1]);
 		int heroesPerPlayer = int.Parse(Console.ReadLine()); // Always 3
-		
+		 
 		Player.HeroesPerPlayer = heroesPerPlayer;
 		PlayerMy = new Player(ETeam.My, 0, new PointI(baseX, baseY));
 		if ( baseX == 0 )
